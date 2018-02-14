@@ -1,0 +1,178 @@
+html {
+	height: 100%;
+	width: 100;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+}
+
+#content {
+	text-align: center;
+	margin-top: 25%;
+	color:white;
+	background-color: rgba(0,0,0,0);
+}
+
+#primero {
+	background: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-513896.jpg);
+	background-size: cover; 
+	height: 100%;
+	width: 100;
+
+}
+
+#content h1 {
+	font-family:'Kaushan Script', cursive;
+	font-weight: 700;
+	font-size: 7em;
+	color: 	#330000;	
+}
+
+hr {
+	width: 40%;
+}
+
+#content h3 {
+	font-family:'Raleway', sans-serif;
+	color: black;
+	} 
+
+a {
+	font-family:'Raleway', sans-serif;
+	color: white ;
+}
+
+#dos {
+	text-align: center;
+	margin-top: 10%;
+	color:white;
+	background-color: rgba(0,0,0,0);
+}
+
+#dos p {
+	text-align: justify;
+	font-family: 'Kavivanar', cursive;
+	color: white;
+	font-size: 2em;
+}
+
+#dos h3 {
+    font-family: 'Satisfy', cursive;
+    color: white;
+    font-size: 4em;
+}
+
+#segundo {
+	background: url(https://images.unsplash.com/photo-1502781252888-9143ba7f074e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=54e1ac4e92c18a03859fa2e61d4a2e2b&auto=format&fit=crop&w=1502&q=80);
+	background-size: cover; 
+	height: 100%;
+	width: 100;
+}
+
+footer {
+	background: black;
+}
+
+footer p{
+	color: white;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#imagenUno {
+	background-image: url(https://images.unsplash.com/photo-1456324504439-367cee3b3c32?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ecb37af624078d2016bffe504fe22f86&auto=format&fit=crop&w=1500&q=80); 
+	min-height: 100%;
+
+}
+
+#imagenDos {
+background-image: url(https://images.unsplash.com/photo-1508830524289-0adcbe822b40?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=377e356cce015c363d123504857f8137&auto=format&fit=crop&w=1422&q=80);
+min-height: 400px;
+}
+
+#imagenTres {
+background-image: url(https://images.unsplash.com/photo-1499343245400-cddc78a01317?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b1382a1452a3d9e428b427f495a95da6&auto=format&fit=crop&w=1500&q=80);
+min-height: 400px;
+}
+
+#transicionUno, #transicionDos, #transicionTres {
+	text-align: center;
+	margin-top: 25%;
+	color:white;
+	background-color: rgba(0,0,0,0);
+}
+
+#parrafoUno, #parrafoDos, #parrafoTres {
+	color: #777;
+	background-color:white;
+	text-align:center;
+	padding:50px 80px;
+	text-align: justify;
+	font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+	text-align:center;
+}
+
+#transicionUno h1 {
+	font-family:'Satisfy', sans-serif;
+	font-weight: 700;
+	font-size: 7em;
+	color: 	#330000;
+}
+
+#transicionDos h1 {
+	font-family:'Bad Script', cursive;
+	font-weight: 700;
+	font-size: 7em;
+	color: 	white;	
+	text-underline-position: center-top;
+}
+
+#transicionTres h1 {
+	font-family:'Overlock', cursive;
+	font-weight: 700;
+	font-size: 7em;
+	color: 	white;	
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#java, #sharp, #html, #css {
+    width: 100%; 
+    background-color: #ddd; 
+    padding-left: 0;
+}
+
+.skills {
+    text-align: center; 
+    padding-right: 20px; 
+    line-height: 40px; 
+    color: white; 
+}
+
+.Java {
+	width: 80%; background-color: #808080;
+}
+
+.sharp {
+	width: 60%; background-color: #808080;
+}
+
+.html {
+	width: 50%; background-color: #808080;
+}
+
+.css {
+	width: 40%; background-color: #808080;
+}

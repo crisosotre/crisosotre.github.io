@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="cristian.css">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel|Gloria+Hallelujah|Kaushan+Script|Raleway|Satisfy|Kavivanar" rel="stylesheet">
+</head>
+<body>
+
+	<nav class="navbar navbar-fixed-top">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Cristian</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="cristian.html">Home</a></li>
+					<li><a href="professional.html">Personal & Professional</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
+					<li><a href="https://www.instagram.com/?hl=es-la"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="https://twitter.com/?lang=es"><i class="fab fa-twitter"></i></a></li>
+				</ul>				
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+
+	<div class="container-fluid" id="primero">
+		<div class="row">
+			<div class="col-lg-12">
+				<div id="content">
+					<h1>Make your dreams come true</h1>
+					<br />
+					<h3>“Estoy convencido que la mitad de lo que separa a los emprendedores <br /> exitosos de los que han fracasado es la perseverancia.” – Steve Jobs.</h3>					
+					<hr>
+					<a href="#segundo" class="btn btn-danger" role="button" area-pressed="true">Starts Now</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid" id="segundo">
+		<div class="row">
+			<div class="col-lg-12">
+				<div id="dos">
+					<p>La realización de las paginas contiene nuevos componentes de Bootstrap como Carousel, botones, barras de navegación, un Slideshow de imagenes, efecto scroll utilizando JavaScript, efecto parallax. En css se modificaron clases y se crearon nuevos estilos para mejorar la presentación de las paginas, también se incluyeron fuentes de Google e iconos de Fontawesome.</p>
+					<br /><br/><br/><br/><br/><br/>
+					<h3>Be Awesome!</h3>					
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-s6">
+					<br/>
+					<p>Cristian Osorio Trejos</p>
+					<p><i class="fas fa-envelope"></i> cristian.osorio@correo.icesi.edu.co</p>
+					<p><i class="fas fa-phone"></i> +57 318 430 0783</p>
+				</div>
+				<div class="col-xs-s6">
+					<ul class= "list-inline text-right">
+						<li><a href="#"></a>Contact Me</li>
+						<li><a href="#"></a>Terms and Conditions</li>
+						<li><a href="#"></a>Copyright <i class="far fa-copyright"></i> 1999-2018</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="http://code.jquery.com/jquery-3.3.1.min.js"  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" 
+	crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<script src="js/smooth-scroll.min.js"></script>
+	<script >
+			var scroll = new SmoothScroll('a[href*="#"]', {
+		// Selectors
+		ignore: '[data-scroll-ignore]', // Selector for links to ignore (must be a valid CSS selector)
+		header: null, // Selector for fixed headers (must be a valid CSS selector)
+
+		// Speed & Easing
+		speed: 500, // Integer. How fast to complete the scroll in milliseconds
+		offset: 0, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+		easing: 'easeInOutCubic', // Easing pattern to use
+		customEasing: function (time) {
+
+			// Function. Custom easing pattern
+			// If this is set to anything other than null, will override the easing option above
+
+			// return <your formulate with time as a multiplier>
+
+			// Example: easeInOut Quad
+			return time < 0.5 ? 2 * time * time : -1 + (4 - 2 * time) * time;
+
+		},
+
+		// Callback API
+		before: function (anchor, toggle) {}, // Callback to run before scroll
+		after: function (anchor, toggle) {} // Callback to run after scroll
+	    });
+    </script>
+</body>
+</html>
